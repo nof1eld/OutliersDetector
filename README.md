@@ -1,4 +1,4 @@
-# Outliers Detection Program
+# Outliers Detector
 
 This program reads a list of votes (numbers), sorts them, and detects outliers using the Interquartile Range (IQR) method.
 
