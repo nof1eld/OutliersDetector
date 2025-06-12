@@ -68,4 +68,4 @@ Vote 7: 50.000000 is an outlier
 
 This helps you spot extremely biased or hateful votes for a player's market-value.
 
-You can then apply less weight to this votes or completely ignore them.
+You can then apply less weight to these votes or completely ignore them.
