@@ -35,7 +35,8 @@ This program reads a list of votes (numbers), sorts them, and detects outliers u
 - Only works with at least 4 votes.
 
 ## Usage Example
-![Transfermarkt Logo](https://seeklogo.com/images/T/transfermarkt-logo-9C3FD210CD-seeklogo.com.png)
+
+![Transfermarkt Logo](example-logo.png)
 
 Suppose you want to check for outliers in Transfermarkt website, where a player's market-value is collected from votings of website's users. You can enter the votes as your dataset:
 
