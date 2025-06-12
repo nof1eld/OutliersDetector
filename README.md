@@ -3,6 +3,7 @@
 This program reads a list of votes (numbers), sorts them, and detects outliers using the Interquartile Range (IQR) method.
 
 ## How it works
+
 - The user is prompted to enter the data set (e.g. votes)
 - The votes are sorted in ascending order.
 - The program calculates the first quartile (Q1) and third quartile (Q3).
@@ -11,11 +12,13 @@ This program reads a list of votes (numbers), sorts them, and detects outliers u
 - The program prints all votes and then lists any outliers found.
 
 ## Where it can be used
+
 - To check for anomalous or extreme values in small datasets, such as survey results, scores, or measurements.
 - In educational settings to demonstrate basic statistics and outlier detection.
 - For quick manual data cleaning before further analysis.
 
 ## How to run
+
 1. Compile the code:
    ```bash
    g++ -o outliers-detection main.cpp
@@ -27,10 +30,13 @@ This program reads a list of votes (numbers), sorts them, and detects outliers u
 3. Follow the prompts to enter the number of votes and each vote value.
 
 ## Notes
+
 - The program uses bubble sort, which is simple but slow for large datasets.
 - Only works with at least 4 votes.
 
 ## Usage Example
+![Transfermarkt Logo](https://seeklogo.com/images/T/transfermarkt-logo-9C3FD210CD-seeklogo.com.png)
+
 Suppose you want to check for outliers in Transfermarkt website, where a player's market-value is collected from votings of website's users. You can enter the votes as your dataset:
 
 ```
@@ -45,6 +51,7 @@ Enter vote 7: 50.0
 ```
 
 Output:
+
 ```
 -----votes-----
 Vote 1: 10.500000
